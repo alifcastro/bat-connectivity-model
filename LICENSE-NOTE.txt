@@ -1,0 +1,6 @@
+No software licence has been selected automatically.
+
+Before public release, choose and add a licence only if you have the right to do
+so. For original dissertation code, common permissive choices include MIT or
+BSD-3-Clause, but institutional requirements and third-party code/data terms
+should be checked first.
