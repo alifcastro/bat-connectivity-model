@@ -1,6 +1,6 @@
 # Horseshoe bat habitat and solar-PV connectivity code
 
-Code accompanying a master's dissertation comparing landscape connectivity for greater horseshoe bat (*Rhinolophus ferrumequinum*, GH) and lesser horseshoe bat (*Rhinolophus hipposideros*, LH) under baseline and solar-PV disturbance scenarios.
+Code accompanying a master's dissertation submitted  for the University of Manchester comparing landscape connectivity for greater horseshoe bat (*Rhinolophus ferrumequinum*, GH) and lesser horseshoe bat (*Rhinolophus hipposideros*, LH) under baseline and solar-PV disturbance scenarios.
 
 ## Repository contents
 
