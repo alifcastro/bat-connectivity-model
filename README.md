@@ -14,22 +14,6 @@ Code accompanying a master's dissertation submitted  for the University of Manch
 
 The final connectivity analysis (for example, GIS/Linkage Mapper processing and network metrics) is not implemented in these three Python files unless separately supplied in the repository. Do not treat these scripts as a complete replacement for the dissertation Methods.
 
-## Core equations
-
-Baseline habitat suitability:
-
-`H_base = 0.20(VHVV) + 0.35(Commute) + 0.35(LivingE) + 0.10(Aspect_Slope)`
-
-Solar-adjusted effective habitat:
-
-`H_effective = max(0, H_base - P_solar * W_zone)`
-
-Resistance transformation:
-
-`R = 1 + 99(1 - H_effective)^2`
-
-The implementation clamps `H_effective` to 0-1 before resistance conversion.
-
 ## Solar-pressure distances
 
 | Species | Code | Full-pressure core | Linear decay reaches zero |
@@ -66,6 +50,3 @@ Script 01 now includes both species-specific scoring functions. `calc_ghb` repro
 
 Run scripts in numerical order where they form part of the relevant species workflow. Dataset preparation, clipping, projection, raster alignment/cell size, normalisation, core-area definition and downstream connectivity/network analysis must follow the dissertation methodology.
 
-## Citation
-
-If this repository accompanies the dissertation, add the final dissertation citation and repository DOI (for example, a Zenodo DOI) here after archiving.
